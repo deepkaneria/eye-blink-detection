@@ -16,9 +16,13 @@ What things you need to install the software
 ```
 pip install -r requirements.txt
 ```
-
-
 ### Running 
+This will run the live feed from webcam.
 ```
 python main.py
+```
+
+This will count eyeblinks from given file.
+```
+python main.py -v test.mp4
 ```
